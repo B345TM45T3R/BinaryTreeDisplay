@@ -1,0 +1,8 @@
+(D(B(A)(C))(E()(F(G()(H)))))
+(D(BW(AW)(CW))(EW()(FW(GW()(HWW)))))
+(D(B(AW)(CWW))(E()(F(GW()(HWWW)))))
+(DWWWW(BW(A)(CW))(E()(FWW(G()(HW)))))
+(A(B(D(H)(I))(E(J)(K)))(C(F(L)(M))(G(N)(O))))
+()
+(A(B(C(D(E)))))
+(C()(B()(A()(D))))

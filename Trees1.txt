@@ -3,7 +3,7 @@
 ()
 (A(B(C(D(E)))))
 (C()(B()(A()(D))))
-(D(B(A)(C))(E()(F(G()(H)))))
+(Dog(Badger(Moose)(Kudu(Fly)()))(Elephant()(Zebra(Hare()(Toad)))))
 (A)
 (A(B))
 (A(B(C)))

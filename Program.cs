@@ -36,14 +36,14 @@ namespace BinaryTreeDisplay
                 WriteHeading("My display method - Raw output:");
                 displayTree(RootList[x], false, false);
                 Console.WriteLine();
-                WriteHeading("Existing display method:");
-                displayTreeStructure(RootList[x]);
-                Console.WriteLine();
                 WriteHeading("My display method - Trimmed output:");
                 displayTree(RootList[x]);
                 Console.WriteLine();
-                WriteHeading("Depth first order:");
-                DisplayDepthFirst(RootList[x]);
+                WriteHeading("Existing display method:");
+                displayTreeStructure(RootList[x]);
+                Console.WriteLine();
+                WriteHeading("Breadth first order:");
+                DisplayBreadthFirst(RootList[x]);
                 Console.WriteLine();
                 Console.WriteLine("Press any key to continue to process next Tree.");
                 Console.WriteLine("=======================================================================================");
@@ -171,7 +171,7 @@ namespace BinaryTreeDisplay
             return root;
         }
 
-        static void DisplayDepthFirst(BTNode node)
+        static void DisplayBreadthFirst(BTNode node)
         {
             Queue temp = new Queue();
             if (node != null)
